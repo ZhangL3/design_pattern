@@ -1,5 +1,9 @@
 # Design Pattern (大话设计模式)
 
+## UML
+
+![UML](./uml/uml_sample.png)
+
 ## Simple Factory
 
 简单工厂模式 (Simple factory)，通过一个 Factory 类，去实例化所需的对象。
