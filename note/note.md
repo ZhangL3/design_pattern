@@ -54,6 +54,18 @@
 
 ### Decorator Pattern
 
+装饰模式是为已有功能动态地添加更多功能的一种方式
+
+![decorator](./uml/decorator.png)
+
+The Decorator Pattern allows you to add new functionality to an object dynamically, without changing its structure. It does this by wrapping the original object with decorator objects that add new behaviors.
+
+The decorator pattern lets you "dress up" an object step by step, each time adding new behavior, just like putting on clothes layer by layer.
+
+装饰模式却提供了一个非常好的解决方案，它把每个要装饰的功能放在单独的类中，并让这个类包装它所要装饰的对象，因此，当需要执行特殊行为时，客户代码就可以在运行时根据需要有选择地、按顺序地使用装饰功能包装对象了。
+
+把类中的装饰功能从类中搬移去除，这样可以简化原有的类。这样做更大的好处就是有效地把类的核心职责和装饰功能区分开了，而且可以去除相关类中重复的装饰逻辑。
+
 ### Visitor Pattern
 
 访问者模式（Visitor），表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作
