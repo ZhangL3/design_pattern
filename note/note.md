@@ -80,6 +80,10 @@ The decorator pattern lets you "dress up" an object step by step, each time addi
 
 第四种是智能指引，是指当调用真实的对象时，代理处理另外一些事
 
+### Factory Method Pattern
+
+
+
 
 ### Visitor Pattern
 
